@@ -15,6 +15,10 @@ O repositório está organizado em diferentes seções, cada uma focada em um t�
 - **Banco de Dados**: Aqui você encontrará informações sobre bancos de dados relacionais e não relacionais, modelagem de dados, consultas SQL, entre outros.
 
 - **Segurança da Informação**: Esta seção aborda tópicos relacionados à segurança cibernética, incluindo criptografia, prevenção de ataques, conformidade regulatória, etc.
+  
+- **Testes**: Nesta seção, você encontrará informações sobre diferentes tipos de testes de software, como teste unitário, teste de integração, teste de aceitação e formas de abordagem em testes, entre outros.
+
+- **Git Básico**: Aqui você encontrará notas básicas sobre o sistema de controle de versão Git, incluindo comandos básicos, fluxo de trabalho, padrões de commits, entre outros.
 
 - **Outros**: Esta é uma seção geral para outros tópicos relacionados a TI que não se encaixam nas categorias acima.
 
