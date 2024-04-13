@@ -11,6 +11,7 @@
 - [Site Oficial PHP](https://www.php.net/)
 - [Codecademy](https://www.codecademy.com/catalog/language/php)
 - [HackerRank - Treinar SQL](www.hackerrank.com)
+- [Evatotuts+](https://code.tutsplus.com/c/php)
 
 ## IA's
 - ChatGPT -  Openai
