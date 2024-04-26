@@ -1,4 +1,5 @@
-<!--Model -> Nas classes modelo nós definimos os atributos e seus métodos.
+<!-- RASCUNHO
+Model -> Nas classes modelo nós definimos os atributos e seus métodos.
 - Incluindo métodos acessores, contrutores e funções/métodos caracteristicos da classe.
 View -> Parte interativa, lado cliente.
 - Telas que o Cliente vai acessar e interagir. Index.html por exemplo
@@ -32,3 +33,88 @@ Dao -> Ações que a controller vai executar no banco de dados-->
    - Por exemplo, em uma aplicação de gerenciamento de clientes, um DAO para a entidade Cliente seria responsável por executar consultas SQL para manipular os dados do cliente no banco de dados.
 
 Esses componentes trabalham juntos para criar uma aplicação organizada, modular e de fácil manutenção. O MVC separa as preocupações da interface do usuário, da lógica de negócios e do acesso a dados, enquanto o DAO separa a lógica de acesso a dados do restante da aplicação.
+
+
+1. **Modelo (Model)**:
+   ```java
+   // Classe Java representando um modelo de Cliente
+   public class Cliente {
+       private String nome;
+       private String email;
+       
+       // Construtor
+       public Cliente(String nome, String email) {
+           this.nome = nome;
+           this.email = email;
+       }
+       
+       // Métodos acessores
+       public String getNome() {
+           return nome;
+       }
+       
+       public void setNome(String nome) {
+           this.nome = nome;
+       }
+       
+       public String getEmail() {
+           return email;
+       }
+       
+       public void setEmail(String email) {
+           this.email = email;
+       }
+   }
+   ```
+
+2. **Visão (View)**:
+   ```html
+   <!-- Arquivo index.html representando uma view simples -->
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Lista de Clientes</title>
+   </head>
+   <body>
+       <h1>Lista de Clientes</h1>
+       <ul>
+           <li>Nome: João Silva, Email: joao@example.com</li>
+           <li>Nome: Maria Oliveira, Email: maria@example.com</li>
+           <!-- Clientes seriam dinamicamente inseridos aqui pela aplicação -->
+       </ul>
+   </body>
+   </html>
+   ```
+
+3. **Controlador (Controller)**:
+   ```java
+   // Classe Java representando um controlador para manipulação de clientes
+   public class ClienteController {
+       // Método para adicionar um novo cliente
+       public void adicionarCliente(String nome, String email) {
+           Cliente novoCliente = new Cliente(nome, email);
+           // Lógica para salvar o novo cliente no banco de dados via DAO
+           ClienteDAO.salvar(novoCliente);
+       }
+   }
+   ```
+
+4. **DAO (Data Access Object)**:
+   ```java
+   // Classe Java representando um DAO para manipulação de clientes no banco de dados
+   public class ClienteDAO {
+       // Método para salvar um cliente no banco de dados
+       public static void salvar(Cliente cliente) {
+           // Lógica para executar uma instrução SQL para inserir o cliente no banco de dados
+           // Exemplo simplificado:
+           // INSERT INTO clientes (nome, email) VALUES (?, ?)
+           // Preencher os valores nome e email com os atributos do cliente passado como parâmetro
+           System.out.println("Cliente salvo no banco de dados: " + 
+           cliente.getNome());
+       }
+   }
+   ```
+
+Esses são exemplos simplificados e não incluem todos os detalhes de uma aplicação real, mas espero que ajudem a ilustrar como os componentes do MVC e do DAO interagem entre si.
