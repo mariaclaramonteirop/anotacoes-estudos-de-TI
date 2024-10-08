@@ -1,0 +1,13 @@
+- hardware I/O
+	- Camadas
+		- Aplicações
+		- interface SW -> Kernel
+		- Kernel
+		- interface kernel -> HW
+		- Hardware
+	- Dispositivos I/O são dividis em 2 categorias -> Bloco vs Caractere 
+		- Orientados a Bloco
+			- Disco magnético
+		- Orientados a Caractere
+			- Impressoras, vídeo, mouse, rede, teclado..
+- 
