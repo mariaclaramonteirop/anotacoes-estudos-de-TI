@@ -30,7 +30,7 @@ O repositório está organizado em diferentes seções, cada uma focada em um t�
 - **Git Básico**: Comandos e práticas recomendadas para Git.
 - **Outros**: Tópicos diversos relacionados a TI.
 ___
-## Atualização de Conteúdo
+## ⚠️Atualização de Conteúdo ⚠️
 
 O conteúdo deste repositório é atualizado regularmente conforme os assuntos que estou estudando. Novas anotações e materiais são adicionados à medida que avanço nos meus estudos de TI.
 
