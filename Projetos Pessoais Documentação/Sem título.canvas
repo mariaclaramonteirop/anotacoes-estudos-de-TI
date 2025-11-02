@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"a254ae1e6425208a","x":-154,"y":-258,"width":250,"height":60,"color":"4","type":"text","text":"## RESERVA FÁCIL"},
+		{"id":"1bdc671fd71974d1","x":-105,"y":-440,"width":153,"height":50,"type":"text","text":"### Usuários"},
+		{"id":"70c343233d99406c","x":240,"y":-253,"width":125,"height":50,"type":"text","text":"### Salas"},
+		{"id":"efc88c3288dcd69e","x":-154,"y":-64,"width":250,"height":60,"type":"text","text":"### Reservas\n"},
+		{"id":"1442d1ecc67a4188","x":-133,"y":-600,"width":210,"height":50,"type":"text","text":"#### Administrador"},
+		{"id":"0cf7f21ec9d1d50b","x":158,"y":-447,"width":145,"height":60,"type":"text","text":"### Cliente"}
+	],
+	"edges":[
+		{"id":"707e1f670b448bfb","fromNode":"a254ae1e6425208a","fromSide":"top","toNode":"1bdc671fd71974d1","toSide":"bottom"},
+		{"id":"208f35bdc13e71e9","fromNode":"a254ae1e6425208a","fromSide":"right","toNode":"70c343233d99406c","toSide":"left"},
+		{"id":"a1c29c10ff0438dd","fromNode":"a254ae1e6425208a","fromSide":"bottom","toNode":"efc88c3288dcd69e","toSide":"top"},
+		{"id":"3ed8d85169856b08","fromNode":"1bdc671fd71974d1","fromSide":"top","toNode":"1442d1ecc67a4188","toSide":"bottom"},
+		{"id":"01d6dcfa1c6d1889","fromNode":"1bdc671fd71974d1","fromSide":"right","toNode":"0cf7f21ec9d1d50b","toSide":"left"}
+	]
+}
