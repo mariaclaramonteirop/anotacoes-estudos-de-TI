@@ -1,6 +1,6 @@
-# Checklist Backend (Nivel Mercado)
+# Checklist Backend (Nível Mercado)
 
-## 1. Fundamentos de Programacao
+## 1. Fundamentos de Programação
 - [ ] Estruturas de dados (listas, filas, pilhas, arvores, grafos)
 - [ ] Complexidade de algoritmos (Big O)
 - [ ] Programacao orientada a objetos (POO)
